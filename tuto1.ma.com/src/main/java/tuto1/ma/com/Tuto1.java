@@ -34,7 +34,7 @@ public class Tuto1 {
 //		for(int i=0;i<10;i++)
 //		{
 //			
-			final ProducerRecord<String, String> record=new ProducerRecord<String, String>("mytopicatos2","key3", "atos -"+2);
+			final ProducerRecord<String, String> record=new ProducerRecord<String, String>("mytopicatos2",3,"key3", "atos -"+2);
 			
 		    producer.send(record, new Callback() {
 			
